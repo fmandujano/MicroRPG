@@ -23,7 +23,7 @@ void Imagen::SetPixel(int x, int y, char valor)
 char Imagen::GetPixel(int x, int y)
 {
 	//seguro
-	if (x >= sizex || y >= sizey) return 0;
+	if (x >= sizex || y >= sizey) return -1;
 	return data[y*sizey + x];
 }
 

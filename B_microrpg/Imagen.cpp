@@ -17,14 +17,14 @@ void Imagen::SetPixel(int x, int y, char valor)
 	//seguro
 	if (x >= sizex || y >= sizey) return;
 
-	data[y * sizey + x] = valor;
+	data[y * sizex + x] = valor;
 }
 
 char Imagen::GetPixel(int x, int y)
 {
 	//seguro
 	if (x >= sizex || y >= sizey) return -1;
-	return data[y*sizey + x];
+	return data[y*sizex + x];
 }
 
 void Imagen::Print()
@@ -33,7 +33,7 @@ void Imagen::Print()
 	{
 		for (int i = 0; i < sizex; i++)
 		{
-			printf("%c", data[j*sizey + i]  );
+			printf("%c", data[j*sizex + i]  );
 		}
 		printf("\n");
 	}

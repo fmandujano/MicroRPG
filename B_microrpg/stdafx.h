@@ -12,6 +12,7 @@
 
 #include "BitVector.h"
 #include "Imagen.h"
+#include "Inventario.h"
 #include <conio.h>
 
 

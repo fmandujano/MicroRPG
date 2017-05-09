@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClInclude Include="BitVector.h" />
     <ClInclude Include="Imagen.h" />
+    <ClInclude Include="Inventario.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -147,6 +148,7 @@
     <ClCompile Include="BitVector.cpp" />
     <ClCompile Include="B_microrpg.cpp" />
     <ClCompile Include="Imagen.cpp" />
+    <ClCompile Include="Inventario.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

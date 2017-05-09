@@ -9,6 +9,8 @@ public:
 	Imagen(int x,  int y);
 	~Imagen();
 
+	char * data;
+
 	void SetPixel(int x, int y, char valor);
 	char GetPixel(int x, int y);
 
@@ -25,7 +27,7 @@ public:
 	}
 
 private:
-	char * data;
+
 	int sizex;
 	int sizey;
 };
